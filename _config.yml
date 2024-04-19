@@ -21,7 +21,7 @@
 title: Associazione Culturale Nova - Artistudium
 email: your-email@example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.nova-artistudium.it" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.nova-artistudium.it" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 safe: true
