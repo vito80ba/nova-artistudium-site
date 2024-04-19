@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }} – {{site.title}}</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap-italia.min.css">
+  </head>
+  <body>
+    {% include header.html %}
+    <div id="main" class="container py-5 py-md-2 px-md-4">
+
+      <div class="row">
+        <div class="col-12 {% if page.disabilita_colonna != true %} col-md-8{%endif%}">
+          <article class="my-2 my-md-5 px-2">
+            <header>
+              {% if page.layout=='galleria' %}
+              <h5 class="text-uppercase text-secondary">Galleria fotografica</h5>
+              {% endif %}
+              <h1>{{page.title}}</h1>
+              {% if page.description %}
+              <h4>{{page.description}}</h4>
+              {% endif %}
+            </header>
+            <main class="py-md-4">
+            {{content}}
+            </main>
+
+          </article>
+        </div>
+        {% if page.disabilita_colonna != true %}
+        <div class="col-md-4 py-2 py-md-5">
+          <aside id="proxEventi" class="my-2 my-md-4 py-2">
+            <h5 class="text-primary mb-3 ">Prossimi eventi</h5>
+            {% raw %}
+            <script id="handlebars-evento" type="text/x-handlebars-template">
+            <article class="border-bottom mt-2 mt-md-4">
+              <div class="small text-secondary text-uppercase">
+              <svg class="icon">
+              <use xlink:href="/assets/svg/sprite.svg#it-calendar"></use>
+              </svg>
+              {{dataesecuzione}}</div>
+              <h6 ><a href="{{url}}" class="text-decoration-none">{{title}}</a></h6>
+              <p class="small">{{localita}}</p>
+            </article>
+            </script>
+            {% endraw %}
+
+          </aside>
+
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnovaartistudium%2F&tabs=timeline&width=380&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=491098121578396" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        {% endif %}
+      </div><!--row-->
+    
+
+    </div><!--/main-->
+    {% include footer.html %}
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+    <script src="/assets/js/bootstrap-italia.bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<div class="it-header-wrapper it-shadow">
+  <div class="it-nav-wrapper">
+    <div class="it-header-center-wrapper theme-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="it-header-center-content-wrapper">
+              <div class="it-brand-wrapper mt-2 mt-md-0">
+                <a href="/" class="px-md-4">
+                <img src="/assets/svg/logo.svg">
+                
+                </a>
+              </div>
+              <div class="it-right-zone mt-4">
+                <div class="it-socials d-none d-flex">
+                  <span class="d-none d-sm-inline">Seguici su</span>
+                  <ul>
+                    <li>
+                      <a title="pagina facebook" href="https://www.facebook.com/novaartistudium/" aria-label="Facebook" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="/assets/svg/sprite.svg#it-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="it-header-navbar-wrapper theme-light-desk">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!--start nav-->
+            <nav class="navbar navbar-expand-lg has-megamenu mt-2">
+              <button class="custom-navbar-toggler" type="button" aria-controls="nav03" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav03">
+                <svg class="icon">
+                  <use xlink:href="/assets/svg/sprite.svg#it-burger"></use>
+                </svg>
+              </button>
+              <div class="navbar-collapsable" id="nav03" style="display: none;">
+                <div class="overlay" style="display: none;"></div>
+                <div class="close-div sr-only">
+                  <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+                </div>
+                <div class="menu-wrapper ">
+                  <ul class="navbar-nav">
+                    <li class="nav-item "><a class="nav-link {% if page.name=='lassociazione.md'%}active{%endif%}" href="/lassociazione/"><span>Associazione </span><span class="sr-only">current</span></a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.name=='attivita-didattiche.md'%}active{%endif%}" href="/attivita-didattiche/"><span>Attività didattiche</span></a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.name=='produzioni-artistiche.md'%}active{%endif%}" href="/produzioni-artistiche/"><span>Produzioni artistiche</span></a></li>
+                    
+                    <li class="nav-item dropdown megamenu ">
+                  <a class="nav-link dropdown-toggle {% if page.name contains 'coro-'%}active{%endif%}" href="#" data-toggle="dropdown" aria-expanded="false">
+                    <span>Cori</span>
+                    <svg class="icon icon-xs">
+                      <use xlink:href="/assets/svg/sprite.svg#it-expand"></use>
+                    </svg>
+                  </a>
+                  <div class="dropdown-menu w-md-50 my-md-0 mx-md-auto">
+                    <div class="row">
+                      <div class="col-12 ">
+                        <div class="link-list-wrapper">
+                          <ul class="link-list">
+                            <li><a class="list-item" href="/coro-di-voci-bianche/"><span>Coro di voci bianche</span></a></li>
+                            <li><a class="list-item" href="/coro-giovanile-imelda-cowdrey/"><span>Coro giovanile Imelda Cowdrey </span></a></li>
+                            <li><a class="list-item" href="/coro-sudcontrocanto/"><span>Coro Sudcontrocanto</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </li>
+                    <li class="nav-item"><a class="nav-link {% if page.name=='tutti-gli-eventi.md'%}active{%endif%}" href="/eventi/"><span>Eventi</span></a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.name=='multimedia.md'%}active{%endif%}" href="/multimedia/"><span>Multimedia</span></a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--/ it-header-wrapper-->

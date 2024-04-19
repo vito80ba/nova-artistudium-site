@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-md-8 order-2 order-md-1 my-4 my-md-0">
+    {% if page.image %}
+    <img src="/assets/eventi/{{page.image}}" alt="Locandina {{page.title}}"
+    class="rounded float-md-left img-fluid w-25 mr-md-2 mb-3 mb-md-2 shadow-sm d-none d-md-inline"
+    data-toggle="modal" data-target=".overimage" style="cursor:pointer">
+    <div class="d-md-none my-4 p-5">
+    <img src="/assets/eventi/{{page.image}}" alt="Locandina {{page.title}}"
+    class="rounded img-fluid w-md-25 shadow-lg ">
+    </div>
+    {% endif %}
+    {{content}}
+    </div>
+    <div class="col-md-4 order-1 order-md-2">
+        <div class="p-4" style="background-color: #eee">
+            <h6 class="text-primary text-uppercase my-1">Quando</h6>
+            <p>{{page.dataesecuzione }}</p>
+            <h6 class="text-primary text-uppercase my-1">Dove</h6>
+            <p>{{page.dove}}<br>{{page.localita}}</p>
+        </div>
+    </div>
+</div><!--/row-->
+
+
+{% if page.image %}
+<div class="modal fade overimage" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content ">
+      <img class="w-75 mx-auto" src="/assets/eventi/{{page.image}}">
+    </div>
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,29 @@
+<div class="row ">
+<div class="col-md-8">
+<table class="table table-striped">
+  <thead >
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Brano</th>
+      <th scope="col">Autore</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for brano in page.brani %}
+    <tr>
+      <th scope="row">{{forloop.index}}</th>
+      <td>{{brano.nome}}</td>
+      <td>{{brano.autore}}</td>
+      <td>{{brano.estratto}}</td>
+      <td><a href="{{brano.path}}">Ascolta</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+<div class="col-md-4">
+    <img class="img-fluid rounded shadow " src="{{page.cover}}" title="{{page.title}}">
+</div>
+</div>
