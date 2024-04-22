@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trasparenza
-permalink: /lassociazione/trasparenza
+permalink: /lassociazione/trasparenza/index.html
 ---
 
 ### Sovvenzioni e contributi da Pubbliche Amministrazioni
