@@ -11,7 +11,7 @@ In applicazione della legge n. 124 del 2017 (co. 125, 126 e 127) in materia di t
 - **Soggetto erogatore**: Comune di Bari<br>
   **Oggetto del contributo**: Avviso pubblico per la concessione di contributi alle imprese e associazioni culturali per l’anno 2018.<br>
   **Pagamento**: Mandato nr 16573 del 7/10/2019<br>
-  **Importo erogato**: € 4.64
+  **Importo erogato**: € 4.640
 - **Soggetto erogatore**: Municipio 2 del Comune di Bari<br>
   **Oggetto del contributo**: Avviso pubblico “Natale di luci e musica al Municipio 2”. Anno 2019<br>
   **Pagamento**: Mandato nr. 3442 del 4/03/2020<br>
@@ -28,3 +28,7 @@ In applicazione della legge n. 124 del 2017 (co. 125, 126 e 127) in materia di t
   **Oggetto del contributo**: Avviso pubblico per la concessione di contributi alle imprese e associazioni culturali per l’anno 2022<br>
   **Pagamento**: Mandato nr. 22622 del 20/09/2023<br>
   **Importo erogato**: € 3.200,00
+- **Soggetto erogatore**: Comune di Bari<br>
+  **Oggetto del contributo**: Avviso pubblico per la concessione di contributi alle imprese e associazioni culturali per l’anno 2024<br>
+  **Pagamento**: Mandato nr. 28974 del 28/10/2025<br>
+  **Importo erogato**: € 2.634,11
