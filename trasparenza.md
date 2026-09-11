@@ -32,3 +32,7 @@ In applicazione della legge n. 124 del 2017 (co. 125, 126 e 127) in materia di t
   **Oggetto del contributo**: Avviso pubblico per la concessione di contributi alle imprese e associazioni culturali per l’anno 2024<br>
   **Pagamento**: Mandato nr. 28974 del 28/10/2025<br>
   **Importo erogato**: € 2.634,11
+- **Soggetto erogatore**: Comune di Bari<br>
+  **Oggetto del contributo**: Avviso pubblico per la concessione di contributi alle imprese e associazioni culturali per l’anno 2025<br>
+  **Pagamento**: Mandato nr. 20338 del 13/07/2026
+  **Importo erogato**: € 1.815,46
